@@ -1,0 +1,21 @@
+#skill .skill__container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));  /* Distribuye siempre dos tarjetas por fila */
+    gap: 30px;  /* Espaciado entre las tarjetas */
+    justify-content: center;  /* Centra las tarjetas horizontalmente */
+    align-items: start;  /* Alinea las tarjetas al inicio del contenedor */
+    margin: 0 auto;  /* Centra el contenedor de las tarjetas */
+}
+
+@media (max-width: 1024px) {
+    #skill .skill__container {
+        grid-template-columns: 1fr;  /* Una tarjeta por fila en pantallas medianas */
+    }
+}
+
+@media (max-width: 600px) {
+    #skill .skill__container {
+        grid-template-columns: 1fr;  /* Una tarjeta por fila en pantallas pequeñas */
+        gap: 20px;
+    }
+}
