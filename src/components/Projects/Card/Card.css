@@ -176,8 +176,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
+    pointer-events: auto;
+} 
+ 
 .card .button__container .btn__share{
     border: 1px solid transparent !important;
     transition: var(--transition);

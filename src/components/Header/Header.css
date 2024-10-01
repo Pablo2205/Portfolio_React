@@ -135,7 +135,7 @@
 }
 
 .btn {
-    background-color: #3a71f1; /* Color azul que coincide con el resto del portafolio */
+    background-color: #339062; /* Color azul que coincide con el resto del portafolio */
     border: none; /* Sin borde */
     color: white; /* Color del texto en blanco */
     padding: 10px 20px; /* Ajusta el tamaño del botón */
@@ -148,7 +148,7 @@
 }
 
 .btn:hover {
-    background-color: #2c59b2; /* Un color más oscuro en hover para resaltar */
+    background-color: #0e8b64; /* Un color más oscuro en hover para resaltar */
 }
 
 #header .profile__wrapper {
@@ -170,7 +170,7 @@
 }
 
 .social-icons a:hover {
-    color: #0077b5; /* Cambia el color de los íconos al hacer hover */
+    color: #339062; /* Cambia el color de los íconos al hacer hover */
 }
 
 @media (max-width: 850px) {

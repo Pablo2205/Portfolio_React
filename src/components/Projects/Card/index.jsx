@@ -1,8 +1,3 @@
-
-//import MySVG1 from '../assets/icons/mySvg1.svg';
-//import MySVG2 from '/public/images/projectsvg/esp.svg';
-// Importa más SVGs si es necesario
-
 import React, { useState } from 'react'
 import "./Card.css"
 import { AiOutlineShareAlt } from 'react-icons/ai'
@@ -87,10 +82,9 @@ const Card = (props) => {
                 )}
               </div>
             </div>
-  
             <div className="button__container">
               <a
-                href={props.demoLink}
+                href={props.DemoLink} 
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn__primary"

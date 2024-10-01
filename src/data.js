@@ -203,6 +203,30 @@ export const projects = [
     },
     {
       id:7,
+      title: 'Portfolio Web',
+      image: '/images/projectsImages/portfolio-react.png',
+      category:"Development",
+      data:{
+        description: `Portafolio web personal, con la finalidad de mostrar mis habilidades y proyectos realizados, con la posibilidad de contactarme mediante el formulario de contacto, y ver mis redes sociales.`,
+        demoLink: `https://github.com/Pablo2205/Portfolio-New`,
+      },
+      stack:[
+        {
+          name:"React",
+          svgIcon: "/images/react.svg",
+        },
+        {
+          name:"Tailwind CSS",
+          svgIcon: "/images/tailwindcss.svg",
+        },
+        {
+          name:"JavaScript",
+          svgIcon: "/images/javascript.svg",
+        },
+      ]
+    },
+    {
+      id:8,
       title: 'Wheater App',
       image: '/images/projectsImages/WheaterApp.png',
       category:"Development",
@@ -226,7 +250,7 @@ export const projects = [
       ]
     },
    {
-      id:8,
+      id:9,
       title: 'Password Generator',
       image: '/images/projectsImages/PasswordGenerate.png',
       category:"Development",
@@ -242,7 +266,7 @@ export const projects = [
       ]
     }, 
     {
-      id:9,
+      id:10,
       title: 'Cientific Calculator',
       image: '/images/projectsImages/Calculator.png',
       category:"Development",
@@ -267,7 +291,7 @@ export const projects = [
     },
     
     {
-      id:10,
+      id:11,
       title: 'Veeam Backup for Microsoft 365',
       image: '/images/projectsImages/veeam365-flow.png',
       category:"Infrastructure",
@@ -292,7 +316,7 @@ export const projects = [
       ]
     },
     {
-      id:11,
+      id:12,
       title: 'Portal from user HelpDesk IT',
       image: '/images/projectsImages/portalusers.png',
       category:"Infrastructure",
@@ -360,11 +384,6 @@ export const experience = [
               skill: "C++",
               level: "Experienced",
               svgIcon: "/images/c++.svg",
-          },
-          {
-              skill: "PHP",
-              level: "Basic",
-              svgIcon: "/images/php.svg",
           },
           {
               skill: "Python",
@@ -456,11 +475,6 @@ export const experience = [
               level: "Basic",
               svgIcon: "/images/sqlite.svg",
           },
-          {
-            skill: "Redis",
-              level: "Basic",
-              svgIcon: "/images/redis.svg",
-          }
       ],
   },
   {
