@@ -4,6 +4,8 @@
 # Getting Started with Create React App
 
 ## Available Scripts
+Once inside the project and in the correct path, NPM must be installed with:
+### `npm install`
 
 In the project directory, you can run:
 
